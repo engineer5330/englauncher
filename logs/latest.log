@@ -1,0 +1,2 @@
+2024-04-14 06:40:24.944 [Command Thread] INFO  LogHelper - Command 'stop'
+2024-04-14 06:40:24.961 [Thread-0] INFO  pro.gravit.launchserver.LaunchServer - Close server socket

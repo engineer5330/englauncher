@@ -1,0 +1,67 @@
+{
+  "title": "EngHardcore",
+  "uuid": "11103f57-e553-4639-ac81-835ad6a5e6fd",
+  "version": "1.12.2",
+  "info": "Server description",
+  "dir": "EngHardcore",
+  "sortIndex": 0,
+  "assetIndex": "1.12.2",
+  "assetDir": "asset1.12.2",
+  "update": [
+    "servers.dat"
+  ],
+  "updateExclusions": [],
+  "updateShared": [],
+  "updateVerify": [
+    "libraries",
+    "natives",
+    "mods",
+    "minecraft.jar",
+    "forge.jar",
+    "liteloader.jar"
+  ],
+  "updateOptional": [],
+  "jvmArgs": [
+    "-XX:+DisableAttachMechanism",
+    "-XX:+UseConcMarkSweepGC",
+    "-XX:+CMSIncrementalMode",
+    "-Dfml.ignorePatchDiscrepancies=true",
+    "-Dfml.ignoreInvalidMinecraftCertificates=true"
+  ],
+  "classPath": [
+    "libraries",
+    "minecraft.jar",
+    "forge.jar"
+  ],
+  "modulePath": [],
+  "modules": [],
+  "altClassPath": [],
+  "clientArgs": [
+    "--tweakClass",
+    "net.minecraftforge.fml.common.launcher.FMLTweaker"
+  ],
+  "compatClasses": [],
+  "properties": {},
+  "servers": [
+    {
+      "name": "EngHardcore",
+      "serverAddress": "localhost",
+      "serverPort": 25565,
+      "isDefault": true,
+      "protocol": -1,
+      "socketPing": true
+    }
+  ],
+  "classLoaderConfig": "LAUNCHER",
+  "flags": [],
+  "recommendJavaVersion": 8,
+  "minJavaVersion": 8,
+  "maxJavaVersion": 8,
+  "settings": {
+    "ram": 0,
+    "autoEnter": false,
+    "fullScreen": false
+  },
+  "limited": false,
+  "mainClass": "net.minecraft.launchwrapper.Launch"
+}
